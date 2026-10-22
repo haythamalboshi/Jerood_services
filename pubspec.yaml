@@ -1,0 +1,48 @@
+name: jerood_app
+description: "تطبيق مدينة جيرود الرسمي - دليل المياه، الصيدليات المناوبة، الطوارئ والإعلانات بنمط Cupertino و Apple iOS"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Apple Cupertino & iOS Design
+  cupertino_icons: ^1.0.8
+
+  # Networking & Google Sheets JSON
+  http: ^1.2.0
+
+  # URL Launcher for Phone Calls
+  url_launcher: ^6.2.4
+
+  # Local Notifications (8 hours before water)
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+
+  # Local Persistence (Neighborhood, Cache, Theme)
+  shared_preferences: ^2.2.2
+
+  # Analytics (Firebase Core & Analytics with graceful offline fallback)
+  firebase_core: ^2.27.0
+  firebase_analytics: ^10.8.9
+
+  # Image Caching
+  cached_network_image: ^3.3.1
+
+  # Date & Time Formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
